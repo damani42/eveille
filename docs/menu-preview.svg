@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="440" viewBox="0 0 880 440" role="img" aria-labelledby="title desc">
+<title id="title">Eveille menu illustration</title>
+<desc id="desc">A sun in the menu bar opens controls for keep-awake, display mode, duration, and quitting.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#eaf2fd"/><stop offset="1" stop-color="#f9f5eb"/></linearGradient><filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dy="10" stdDeviation="14" flood-color="#11213b" flood-opacity=".12"/></filter></defs>
+<rect width="880" height="440" rx="22" fill="url(#bg)"/>
+<g font-family="-apple-system, BlinkMacSystemFont, Helvetica, Arial, sans-serif" fill="#172135">
+<text x="56" y="155" font-size="46" font-weight="700">Eveille</text>
+<text x="58" y="197" font-size="21">Keep your Mac awake.</text>
+<text x="58" y="230" font-size="18" fill="#5e687a">One click from the menu bar.</text>
+<text x="58" y="356" font-size="13" fill="#6a7485">Native macOS app · Works offline · MIT License</text>
+<rect x="478" y="34" width="42" height="32" rx="7" fill="#172135" fill-opacity=".08"/>
+<g transform="translate(499 50)" stroke="#172135" stroke-width="1.8" stroke-linecap="round"><circle r="4" fill="#172135"/><path d="M0-11v3 M0 8v3 M-11 0h3 M8 0h3 M-8-8l2 2 M6 6l2 2 M-8 8l2-2 M6-6l2-2"/></g>
+<rect x="455" y="77" width="366" height="300" rx="13" fill="#fff" fill-opacity=".96" filter="url(#shadow)"/>
+<text x="480" y="109" font-size="15" font-weight="700">Eveille</text>
+<text x="480" y="136" font-size="14" fill="#707884">Active · unlimited</text>
+<path d="M470 151h336 M470 273h336" stroke="#e4e7eb"/>
+<text x="477" y="183" font-size="16">✓</text><text x="502" y="183" font-size="15">Turn off keep-awake</text>
+<text x="477" y="216" font-size="16">✓</text><text x="502" y="216" font-size="15">Keep the display on</text>
+<text x="502" y="249" font-size="15">Duration</text><text x="785" y="249" font-size="19">›</text>
+<text x="502" y="308" font-size="15">About Eveille…</text>
+<text x="502" y="344" font-size="15">Quit Eveille</text><text x="773" y="344" font-size="14" fill="#707884">⌘Q</text>
+</g></svg>

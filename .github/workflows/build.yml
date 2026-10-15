@@ -1,0 +1,35 @@
+name: Build and test
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  macos:
+    runs-on: macos-15
+    timeout-minutes: 15
+    steps:
+      - name: Check out source
+        uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: Test power assertions and session deadlines
+        run: ./scripts/test.sh
+      - name: Build universal app
+        run: ./scripts/build.sh --universal
+      - name: Verify package checksum
+        working-directory: dist
+        run: shasum -a 256 -c Eveille-macos-universal.zip.sha256
+      - name: Upload preview package
+        uses: actions/upload-artifact@v7
+        with:
+          name: Eveille-macos-universal-preview
+          path: |
+            dist/Eveille-macos-universal.zip
+            dist/Eveille-macos-universal.zip.sha256
+          if-no-files-found: error
+          retention-days: 14
