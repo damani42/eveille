@@ -2,6 +2,8 @@
 
 **Keep your Mac awake. One click from the menu bar.**
 
+Public preview · macOS 13+ · MIT License
+
 Eveille is a small native macOS app for long-running tasks: coding, rendering,
 downloads, presentations, or anything you want to leave running while you step away.
 
@@ -108,6 +110,13 @@ checklist still need verification; see [release preparation](docs/RELEASING.md).
 
 Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) and
 [CHANGELOG.md](CHANGELOG.md).
+
+## Alternatives
+
+[KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake) and
+[Amphetamine](https://apps.apple.com/app/amphetamine/id937984704) also solve this
+problem. Eveille is a small, independent implementation focused on a few explicit
+controls, offline operation, and source that is easy to inspect.
 
 ## Origin
 
